@@ -1,3 +1,45 @@
+# DATENWORKS CODE CHALLENGE - SUMMONER
+
+## Sobre a aplicação
+
+A aplicação foi desenvolvida utilizando Javascript, HTML, CSS e bibliotecas como React, axios, enzyme e outras.
+Para que a aplicação funcione de maneira adequada, lembre-se de ter conexão com a internet. Escolhi fazer dessa maneira pois, na vida real, precisamos fazer consultas à banco de dados, serviços externos (como a API do Github utilizada nessa aplicação) e trazer os arquivos junto com a aplicação não proporcionaria a mesma dificuldade/desafio que eu gostaria de enfrentar ao desenvolver esse código.
+
+## Documentação
+
+Toda a documentação das funções está descrita no próprio código de forma que ao chamar a função, o popup em algumas IDEs como o Visual Studio Code e outros formarão uma descrição organizada da mesma.
+
+### Como executar o código
+
+Para executar o código, será necessário instalar o Node.Js (https://nodejs.org/en/download/), que por sua vez instalará o npm, que será necesário para instalar as dependencias do repositório e executar a aplicação. Com ele instalado, clone este repositório em sua máquina utilizando o comando $ git clone https://github.com/jeffsarti/datenworks.git
+Lembrando que para clonar um repositório utilizando o comando 'git clone', é necessário ter instalado o git bash em sua máquina. Outra alternativa é fazer o download do repositório em .zip.
+
+Caso algum dos softwares acima tenha sido instalado e algum dos comandos no terminal falhe, reinicie a máquina e tente novamente. Caso isso não resolva, entrem em contato com jeffersonsarti@gmail.com.
+
+Agora, no terminal de sua preferencia, mude o diretório para onde está a pasta com os arquivos do repositório e execute o comando:
+$ npm install
+
+Após o término da instalação dos módulos da aplicação, execute o comando:
+$ npm start 
+
+Esse comando iniciará nossa aplicação e abrirá uma página da web com o seu conteúdo em http://localhost:3000/.
+
+Nota: É necessário estar conectado à internet para a boa execução do aplicativo, visto que a consulta aos arquivos .csv estão sendo feitas via API do github utilizando a biblioteca axios.
+
+## Testes
+
+O arquivo de testes está localizado na pasta src/components/championsDPS.test.js.
+Para executar os testes já montados por mim, basta executar o código: 
+$ npm test
+
+## Notas gerais
+
+Gostaria, primeiramente, de agradecer a oportunidade e o desafio. Foi muito divertido codar essa aplicação e eu aprendi tecnologias com esse desafio que até então eu desconhecia, como os próprios testes unitários (sim, até o momento de codar essa aplicação, eu não fazia ideia do que eram ou como fazê-los!). Foi muito importante para meu aprendizado e eu espero que vocês gostem do resultado também!
+
+Gostaria também de agradecer ao Richard Lopes, que me incentivou a enviar meu curriculum para a Datenworks e ao Gustavo, que foi super atencioso e prestativo ao conversar comigo e me aprensentar à primeira fase do processo de recrutamento e seleção.
+
+----------------------------------------------------------------------------------------------------------------------
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
